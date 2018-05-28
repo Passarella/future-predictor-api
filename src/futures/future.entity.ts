@@ -8,6 +8,9 @@ export class Future {
   @Column()
   percentage: number;
 
+  @Column({ nullable: true })
+  description: string;
+
   @Column()
   result: string;
 
